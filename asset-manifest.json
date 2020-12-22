@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/mister_bitcoin/static/css/main.8d57ec15.chunk.css",
+    "main.js": "/mister_bitcoin/static/js/main.6fef8f48.chunk.js",
+    "main.js.map": "/mister_bitcoin/static/js/main.6fef8f48.chunk.js.map",
+    "runtime-main.js": "/mister_bitcoin/static/js/runtime-main.826c29ad.js",
+    "runtime-main.js.map": "/mister_bitcoin/static/js/runtime-main.826c29ad.js.map",
+    "static/js/2.fd8202ca.chunk.js": "/mister_bitcoin/static/js/2.fd8202ca.chunk.js",
+    "static/js/2.fd8202ca.chunk.js.map": "/mister_bitcoin/static/js/2.fd8202ca.chunk.js.map",
+    "static/js/3.8c540812.chunk.js": "/mister_bitcoin/static/js/3.8c540812.chunk.js",
+    "static/js/3.8c540812.chunk.js.map": "/mister_bitcoin/static/js/3.8c540812.chunk.js.map",
+    "index.html": "/mister_bitcoin/index.html",
+    "static/css/main.8d57ec15.chunk.css.map": "/mister_bitcoin/static/css/main.8d57ec15.chunk.css.map",
+    "static/js/2.fd8202ca.chunk.js.LICENSE.txt": "/mister_bitcoin/static/js/2.fd8202ca.chunk.js.LICENSE.txt",
+    "static/media/contact.42200432.png": "/mister_bitcoin/static/media/contact.42200432.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.826c29ad.js",
+    "static/js/2.fd8202ca.chunk.js",
+    "static/css/main.8d57ec15.chunk.css",
+    "static/js/main.6fef8f48.chunk.js"
+  ]
+}
