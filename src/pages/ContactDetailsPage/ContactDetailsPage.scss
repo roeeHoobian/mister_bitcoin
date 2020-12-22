@@ -1,0 +1,40 @@
+.contact-details-container{
+    position: relative;
+    border:  1px solid rgb(201, 201, 201);
+    max-width: fit-content;
+    margin: 0 auto;
+    .delete-btn{
+        filter: hue-rotate(330deg);
+        cursor: pointer;
+        max-width: 30px;
+        position: absolute;
+        top: 10px;
+        right: 40px;
+        &:hover{
+            transform: scale(1.1);
+        }
+    }
+    .edit-btn{
+        filter: hue-rotate(330deg);
+        position: absolute;
+        top: 14px;
+        right: 10px;
+        max-width: 25px;
+        &:hover{
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            max-width: 30px;
+            transform: rotate(-20deg);
+        }
+    }
+    .back-btn{
+        filter: hue-rotate(330deg);
+
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        cursor: pointer;
+        max-width: 30px;
+    }
+}

@@ -1,0 +1,26 @@
+.app-header {
+    // background-color: #eeeeee;
+    // padding: 0 100px;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    color: #222831;
+    justify-content: space-between;
+    align-items: center;
+    // border-bottom: 1px solid #3f3d5686;
+    .main-nav{
+        li:hover{
+            transform: scale(1.1);
+        }
+        .active{
+            color:#00adb5;
+            font-weight: 700;
+        }
+    }
+    img{
+        max-width: 250px;
+        padding:20px  0;
+    }
+}
+
+

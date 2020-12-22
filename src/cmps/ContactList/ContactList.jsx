@@ -1,13 +1,17 @@
+import React from 'react'
+import ContactPreview from '../../cmps/ContactPreview/ContactPreview'
+import './ContactList.scss';
 
-import React, { Component } from 'react'
-
-import './ContactList.css'
-
-class ContactList extends Component {
-
-    render() {
-        <h1>contact list cmp</h1>
-    }
+export default function ContactList({ contacts }) {
+    return (
+        <div>
+            <ul className="contact-list">
+                {contacts.map((currContact) => {
+                    return <li key={currContact.name}><ContactPreview contact={currContact} /></li>
+                    //   return  <li key={contact._id}> <img src={contactImg} alt=""/>{contact.name}</li>
+                })}
+            </ul>
+        </div>
+    )
 }
 
-export default ContactList

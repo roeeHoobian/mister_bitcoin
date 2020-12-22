@@ -1,0 +1,11 @@
+.chart {}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.mixed-chart{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

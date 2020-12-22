@@ -1,1 +1,22 @@
-.contactList {}
+.contact-list {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: fit-content;
+    justify-content: flex-start;
+    
+    margin: 0 auto;
+    padding: 5px;
+    list-style: none;
+}
+
+.contacts-list-container {
+   display: flex;
+   max-width: 400px;
+   justify-content: center;
+   border-bottom: 1px solid rgb(221, 221, 221);
+   padding: 5px;
+   .contact-info{
+       margin-left: 20px;
+   }
+ 
+}

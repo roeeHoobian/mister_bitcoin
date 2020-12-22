@@ -1,0 +1,27 @@
+.userInfo{
+    // border: 1px solid lightcoral;
+    width: fit-content;
+    margin: 0 auto;
+    text-align: left;
+    display: flex;
+    margin-top: 100px;
+    &>*:not(:first-child){
+        padding-left: 30px;
+    }
+    .user-data{
+        padding: 0 100px;
+        font-size: 1.2rem;
+        img{
+            max-width: 40px;
+        }
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        color: #3f3d56;
+        flex-direction: column;
+        &>*{
+            display: flex;
+            align-items: center;
+        }
+    }
+}
