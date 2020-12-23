@@ -1,1 +1,25 @@
-.signupPage {}
+.signup-container{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    max-width:400px;
+    margin:0 auto;
+    h2{
+        color:#242a33e0;
+    }
+    input{
+        border-radius:20px;
+        outline:none;
+        border:1px solid #333;
+        height:30px;
+        margin-bottom:40px;
+
+    }
+    button{
+        max-width: 150px;
+        cursor: pointer;
+        height:30px;
+        
+    }
+}

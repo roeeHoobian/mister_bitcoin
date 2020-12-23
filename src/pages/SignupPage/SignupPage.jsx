@@ -1,7 +1,8 @@
 
 import { Component } from 'react'
 import { UserService } from '../../services/UserService'
-
+// import {loadUser} from '../../store/actions/userActions.js'
+// import { connect } from 'react-redux';
 import './SignupPage.scss'
 
 export class SignupPage extends Component {
@@ -12,15 +13,12 @@ export class SignupPage extends Component {
     }
    
      setUser= (name=null)=> {
-        UserService.setUser(name)
-        if(name) {
-            this.props.history.push('/profile')
-        }
-      
+        UserService.signup(name)
+        this.props.history.push('/profile')
     }
     render() {
         return (
-            <div>
+            <div className="signup-container">
                 <h2>Please Enter You Name</h2>
                 <input type="text"  onChange={(ev) =>this.setState({user:{name:ev.target.value}})} />
                 <button onClick={()=>this.setUser(this.state.user.name)}>Start Trading</button>
@@ -28,4 +26,12 @@ export class SignupPage extends Component {
         )
     }
 }
-
+// function mapStateToProps(state) {
+//     return {
+//         user: state.user
+//     }
+// }
+// const mapDispatchToProps = {
+//     loadUser
+// }
+// export const SignupPage = connect(mapStateToProps, mapDispatchToProps)(_SignupPage)

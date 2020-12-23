@@ -3,7 +3,7 @@ import React from 'react'
 
 // import coinsImg from '../../assets/img/icons/coins.png'
 import './HomePage.scss'
-
+import headerImg from '../../assets/img/digital_currency.svg'
 export default class HomePage extends React.Component {
 
 
@@ -18,11 +18,8 @@ export default class HomePage extends React.Component {
                     <p>Bitcoin transactions are secured by military-grade cryptography. Nobody can take your money or make a payment on your behalf. Bitcoin can give you control over your money and a strong level of protection against many types of fraud.</p>
                     <button onClick={()=>this.props.history.push('/signup')}>Get Started</button>
                 </div>
-                <img src="./digital_currency.svg" alt=""/>
+                <img src={headerImg} alt=""/>
             </div>
-            
-           
-            
             </section>
         )
     }

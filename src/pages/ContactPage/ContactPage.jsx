@@ -11,6 +11,7 @@ class _ContactPage extends Component {
       filterBy:''
   }
     componentDidMount() {
+        console.log(this.props);
         this.props.loadContacts(this.state.filterBy)
     }
     onSetFilter = (filterBy)=>{

@@ -6,13 +6,13 @@ import { AppHeader } from './cmps/AppHeader/AppHeader';
 import { ContactEditPage } from './pages/ContactEditPage/ContactEditPage';
 import { StatisticsPage } from './pages/StatisticsPage/StatisticsPage';
 import { ProfilePage } from './pages/ProfilePage/ProfilePage';
+import { SignupPage } from './pages/SignupPage/SignupPage';
 
 import {
   HashRouter as Router,
   Switch,
   Route,
 } from "react-router-dom";
-import { SignupPage } from './pages/SignupPage/SignupPage';
 
 function App() {
   return (

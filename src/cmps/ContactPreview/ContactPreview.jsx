@@ -10,7 +10,7 @@ export default  function ContactPreview({ contact }) {
 
     return (
         <NavLink to={`/contact/${contact._id}`}>
-        <div className="contacts-list-container" >
+        <div className="contacts-list-container">
             <img src={"https://robohash.org/" + contact._id} alt="" />
             <div className="contact-info">
             <p>{contact.name}</p>

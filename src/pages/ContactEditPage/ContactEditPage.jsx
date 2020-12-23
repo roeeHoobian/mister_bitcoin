@@ -2,6 +2,7 @@
 import React, { Component } from 'react'
 import ContactService from '../../services/ContactService'
 import './ContactEditPage.scss'
+import backImg from '../../assets/img/icons/back.png'
 
 export class ContactEditPage extends Component {
     state = {
@@ -32,7 +33,7 @@ export class ContactEditPage extends Component {
         const { name, phone, email } = this.state.contact
         return (
             <div className="contact-edit-container">
-                <img src="./back.png" alt="" className="back-btn" onClick={()=>this.props.history.goBack()}/>
+                <img src={backImg} alt="" className="back-btn" onClick={()=>this.props.history.goBack()}/>
             <form onSubmit={this.onSaveContact} className="edit-form-container">
                 <div>
                 <label>Name: </label>

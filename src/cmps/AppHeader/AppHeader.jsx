@@ -1,10 +1,10 @@
 import './AppHeader.scss'
 import { NavLink } from "react-router-dom"
-
+import logo from '../../assets/img/logo.png'
 export function AppHeader(props) {
     return (
         <div className="app-header">
-            <img src="./logo.png" alt=""/>
+            <img src={logo} alt=""/>
             <nav className="main-nav">
                 <ul>
                     <li>
